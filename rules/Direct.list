@@ -1,0 +1,25 @@
+# Dmit-EB Direct Rules
+# Use in Surge:
+# RULE-SET,https://raw.githubusercontent.com/<user>/<repo>/main/rules/Direct.list,DIRECT
+
+DOMAIN-KEYWORD,synology
+DOMAIN-KEYWORD,quickconnect
+DOMAIN-SUFFIX,checkip.dyndns.org
+DOMAIN-SUFFIX,checkipv6.dyndns.org
+DOMAIN-SUFFIX,checkip.synology.com
+DOMAIN-SUFFIX,ifconfig.co
+DOMAIN-SUFFIX,api.myip.com
+DOMAIN-SUFFIX,ip-api.com
+DOMAIN-SUFFIX,ipapi.co
+DOMAIN-SUFFIX,ip6.seeip.org
+DOMAIN-SUFFIX,members.3322.org
+DOMAIN-SUFFIX,m-team.cc
+DOMAIN-SUFFIX,bblmw.com
+DOMAIN-KEYWORD,makerworld
+DOMAIN-SUFFIX,bambulab.com
+DOMAIN-KEYWORD,bambulab
+DOMAIN-SUFFIX,bose.com
+DOMAIN-SUFFIX,hp.com
+DOMAIN-SUFFIX,mi.com
+DOMAIN-SUFFIX,xiaomi.com
+DOMAIN-SUFFIX,pthome.org
