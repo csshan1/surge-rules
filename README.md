@@ -7,7 +7,8 @@ It intentionally does not include proxy node subscriptions, passwords, or privat
 ## Files
 
 - `rules/Direct.list`: Custom direct rules only. Use this as a Surge `RULE-SET` with `DIRECT`.
-- `profiles/Dmit-EB.rules.conf`: The full `[Rule]` section from the profile, including custom direct rules and upstream rule-set references.
+- `rules/*.list`: Mirrored upstream rules used by the Dmit-EB profile.
+- `profiles/Dmit-EB.rules.conf`: The full `[Rule]` section from the profile, using only this repository's raw rule URLs.
 
 ## Recommended Usage
 
@@ -18,6 +19,14 @@ RULE-SET,https://raw.githubusercontent.com/<user>/<repo>/main/rules/Direct.list,
 ```
 
 Keep it before proxy and media rule sets so these domains always go direct.
+
+The full profile rule section uses this repository as the only rule source:
+
+```ini
+RULE-SET,https://raw.githubusercontent.com/csshan1/surge-rules/main/rules/Direct.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/csshan1/surge-rules/main/rules/OpenAI.list,Intelligence
+RULE-SET,https://raw.githubusercontent.com/csshan1/surge-rules/main/rules/Apple.list,Apple
+```
 
 ## Full Rule Section
 
